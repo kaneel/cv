@@ -1,0 +1,5 @@
+client/css/*.css
+client/css/*.css.map
+client/js/*.js
+client/index.html
+build/node_modules

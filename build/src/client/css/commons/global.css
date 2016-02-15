@@ -1,0 +1,60 @@
+html {
+  @media (--small-viewport) {
+    font-size: 80%;
+  }
+
+  @media (--medium-viewport) {
+    font-size: 55%;
+  }
+
+  @media (--large-viewport) {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  background: var(--background);
+  font: 1.4rem/1.6 Helvetica;
+  color: var(--text);
+}
+
+a {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--hover);
+}
+
+p {
+  font-size: 1em;
+}
+
+:--heading {
+  color: inherit;
+}
+
+:--heading:first-child {
+  margin-top: 0;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 6em;
+  margin: .2em 0;
+
+  @media (--small-viewport) {
+    &{font-size:4rem;}
+  }
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 4em;
+  margin: .4em 0;
+}
+
+h3 {
+  font-weight: 200;
+  font-size: 2em;
+}
