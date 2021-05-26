@@ -6,7 +6,7 @@
   "dependencies": {
     "autoprefixer": "^9.7.4",
     "browserify": "^16.5.0",
-    "browserslist": "^4.8.6",
+    "browserslist": "^4.16.5",
     "cssnano": "^4.1.10",
     "extend": "^3.0.0",
     "fs-extra": "^8.1.0",
